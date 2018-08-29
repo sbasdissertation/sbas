@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     {
                         case 0:
                             Intent intent0 = new Intent(MainActivity.this,ActivityOne.class);
-                            intent0.putExtra("info","This is an activity from card item index  "+finalI);
+                            intent0.putExtra("info","This is activity from card item index  "+finalI);
                             startActivity(intent0);
                             break;
                         case 1:
