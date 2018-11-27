@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
                         case 3:
                             Intent intent3 = new Intent(MainActivity.this,LoginActivity.class);
-//                            intent3.putExtra("info","This is activity from card item index  "+finalI);
+//                          intent3.putExtra("info","This is activity from card item index  "+finalI);
                             startActivity(intent3);
                             break;
                         case 4:
