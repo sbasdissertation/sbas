@@ -54,6 +54,7 @@ package="myapplication.sbas">
     <activity android:name=".MainActivity" />
     <activity android:name=".ActivityOne" />
     <activity android:name=".BusMap" />
+    <activity android:name=".LoginActivity" />
 </application>
 
 </manifest>

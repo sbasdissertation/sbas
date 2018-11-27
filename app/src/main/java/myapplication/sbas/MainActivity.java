@@ -38,23 +38,22 @@ public class MainActivity extends AppCompatActivity {
                     switch(finalI)
                     {
                         case 0:
-                            Intent intent0 = new Intent(MainActivity.this,ActivityOne.class);
-                            intent0.putExtra("info","Modified This is activity from card item index  "+finalI);
+                            Intent intent0 = new Intent(MainActivity.this,LoginActivity.class);
                             startActivity(intent0);
                             break;
                         case 1:
-                            Intent intent1 = new Intent(MainActivity.this,schoolloginform.class);
+                            Intent intent1 = new Intent(MainActivity.this,LoginActivity.class);
                             startActivity(intent1);
                             break;
                         case 2:
-                            Intent intent2 = new Intent(MainActivity.this,BusMap.class);
-                            intent2.putExtra("info","This is activity from card item index  "+finalI);
+                            Intent intent2 = new Intent(MainActivity.this,LoginActivity.class);
+//                            intent2.putExtra("info","This is activity from card item index  "+finalI);
                             startActivity(intent2);
                             break;
 
                         case 3:
-                            Intent intent3 = new Intent(MainActivity.this,ActivityOne.class);
-                            intent3.putExtra("info","This is activity from card item index  "+finalI);
+                            Intent intent3 = new Intent(MainActivity.this,LoginActivity.class);
+//                            intent3.putExtra("info","This is activity from card item index  "+finalI);
                             startActivity(intent3);
                             break;
                         case 4:
